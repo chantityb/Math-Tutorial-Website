@@ -2,7 +2,7 @@
 
 #container {
 	width: 1050px;
-	border: 1px solid grey;
+	/*border: 1px solid grey;*/
 	margin: 0 auto;
 }
 
@@ -108,9 +108,60 @@ ul {
 
 #introduction p {
 	font-size: 25px;
-	color: #A91B0D;
+	color: #d69f99;
 	text-align: justify;
 }
 
+.sidebar {
+	height: 500px;
+	width: 450px;
+	border: 1px solid #B3315F;
+	border-radius: 20px;
+	padding: 10px 30px;
+}
 
+.sidebar h3 {
+	color: #5b86e5;
+	font-size: 30px;
+}
+
+.sidebar ul {
+	padding-top: 8px;
+}
+
+#leftsidebar ul li {
+	padding: 4px 0 4px 10px;
+	list-style-image: url(img/arrow.png);
+}
+
+#rightsidebar ul li {
+	padding: 17px 0 17px 70px;
+	background: url(img/checkmark.png) no-repeat left center;
+}
+
+.sidebar ul li a {
+	text-decoration: none;
+	font-size: 20px;
+	color: #5b86e5;
+	-webkit-transition: font-size 0.3s ease;
+	-moz-transition: font-size 0.3s ease;
+	-o-transition: font-size 0.3s ease;
+	-ms-transition: font-size 0.3s ease;
+	transition: font-size 0.3s ease;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active {
+	text-decoration: none;
+	color: #F6416C;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+#leftsidebar {
+	float: left;
+}
+
+#rightsidebar {
+	float: right;
+}
 
